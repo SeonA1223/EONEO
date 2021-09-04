@@ -72,6 +72,7 @@
 - 전체적 UI 수정
 - 발표 
 
+<br/>
 
 <!-- ABOUT THE PROJECT -->
 
@@ -90,6 +91,7 @@
 	
 <img src="./images/기술흐름도.png" width="700px">
 
+<br/>
 
 ## Pages in Detail
 
@@ -125,7 +127,7 @@
 <img src="./images/chatting.PNG" width="700px">
 
 
-
+<br/>
 ### 💜배포 환경
 
 	- __URL__ : https://i5a102.p.ssafy.io/
@@ -133,6 +135,7 @@
 	- __접속 가능__ : 다른 인스턴스로 이동 예정으로 현재 불가능
 	- __HTTPS 적용__ : O 
 
+<br/>
 
 ### 💜개발 환경
 
@@ -173,12 +176,14 @@
 #### Design
 <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=Figma&logoColor=white">
 
+#### 개발환경
 
 - __JVM__ : 1.8, java8 (openjdk:8-jdk-alpine)
 - __NGINX__ : nginx/1.18.0 (ubuntu)
 - __Nodejs__ : 14.17.3
 - __IntelliJ__ : 2021.1
 
+<br/>
 
 ### 💜핵심 라이브러리
 
@@ -206,12 +211,14 @@
   - __사용 기능__ : 메시지 통신 시 클라이언트에서 사용
 
 <!-- GETTING STARTED -->
+<br/>
 
 ## 프로젝트 시작하기
 
 로컬에서 **어너**프로젝트를 시작하는 방법입니다.
 몇 가지 사전 준비를 한 뒤, 다음 절차에 따라 진행 해 보세요!
 
+<br/>
 
 ### 💜사전 준비
 
@@ -349,7 +356,8 @@ nginx.conf
 }
 ```
 </details>
-
+	
+<br/>
 ### 💜프로젝트 설치 방법
 
 1. 깃 레포지토리 클론
@@ -396,7 +404,7 @@ nginx.conf
       docker run -d -p 3000:3000 --network eoneo --name eoneofront eoneofront:v0.1 
     ```
 
-
+<br/>
 ### 💜깃 커밋 컨벤션
 
   ```sh

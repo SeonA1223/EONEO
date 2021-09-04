@@ -27,12 +27,6 @@
     <li>
       [팀원](#팀원)
     </li>
-    <!-- <li><a href="#usage">Usage</a></li> -->
-    <!-- <li><a href="#roadmap">Roadmap</a></li> -->
-    <!-- <li><a href="#contributing">Contributing</a></li> -->
-    <!-- <li><a href="#license">License</a></li> -->
-    <!-- <li><a href="#contact">Contact</a></li> -->
-    <!-- <li><a href="#acknowledgements">Acknowledgements</a></li> -->
   </ol>
 </details>
 
@@ -47,25 +41,29 @@
 자신이 배우고 싶은 언어, 할 수 있는 언어, 모국어를 선택 후,  
 관심사가 같은 다양한 사람들과 글로벌하게 토킹 해 보세요!☺
 
+## EONEO의 특징
+**접근성** **직관성** **경량화**
+
+
 
 #### 로그인
-<img src="./images/login.PNG" width="700px">
+<img src="./images/login.PNG" width="400px">
 
 #### 회원가입
-<img src="./images/signup.PNG" width="700px">
+<img src="./images/signup.PNG" width="400px">
 
 #### 마이페이지
-<img src="./images/mypage.PNG" width="700px">
+<img src="./images/mypage.PNG" width="400px">
 
 #### 사용자 정보 수정
-<img src="./images/editprofile1.PNG" width="700px">
-<img src="./images/editprofile2.PNG" width="700px">
+<img src="./images/editprofile1.PNG" width="400px">
+<img src="./images/editprofile2.PNG" width="400px">
 
 #### 친구 찾기
-<img src="./images/searchfriends.PNG" width="700px">
+<img src="./images/searchfriends.PNG" width="400px">
 
 #### 채팅
-<img src="./images/chatting.PNG" width="700px">
+<img src="./images/chatting.PNG" width="400px">
 
 
 
@@ -79,12 +77,14 @@
 ### 💜개발 환경
 
 #### FrontEnd
+<div>
 <img src = "https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white"> 
 <img src = "https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white">
 <img src="https://img.shields.io/badge/-JavaScript-eed718?style=flat&logo=javascript&logoColor=ffffff">
 <img src="https://img.shields.io/badge/-React-000000?style=flat&logo=react&logoColor=00c8ff">
 <img src="http://img.shields.io/badge/-VS%20Code-007ACC?style=flat&logo=visual%20studio%20code&logoColor=white">
 <img src="http://img.shields.io/badge/-Bootstrap-7952B3?style=flat&logo=Bootstrap&logoColor=white">
+</div>
 
 #### BackEnd
 <img src="https://img.shields.io/badge/-MySQL-4479A1?style=flat&logo=mysql&logoColor=ffffff">
@@ -160,44 +160,44 @@ https://nodejs.org/ko/download/ v14.17.3
 <details>
 <summary>ec2에 도커 설치</summary>
 
-	```sh  
-	//구버전 삭제
-	sudo apt-get remove docker docker-engine docker.io containerd runc
+```sh  
+//구버전 삭제
+sudo apt-get remove docker docker-engine docker.io containerd runc
 
-	//패키지 관리(apt: 패키지 관리 명령어)
-	sudo apt-get update
-	sudo apt-get install \
-	    apt-transport-https \
-	    ca-certificates \
-	    curl \
-	    gnupg \
-	    lsb-release
+//패키지 관리(apt: 패키지 관리 명령어)
+sudo apt-get update
+sudo apt-get install \
+    apt-transport-https \
+    ca-certificates \
+    curl \
+    gnupg \
+    lsb-release
 
-	//도커 GPG 키 추가
-	curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+//도커 GPG 키 추가
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
 
-	//stable repository 셋업
-	echo \
-	  "deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu \
-	  $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+//stable repository 셋업
+echo \
+  "deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu \
+  $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 
-	//도커 엔진 설치
-	sudo apt-get update
-	sudo apt-get install docker-ce docker-ce-cli containerd.io
+//도커 엔진 설치
+sudo apt-get update
+sudo apt-get install docker-ce docker-ce-cli containerd.io
 
-	//도커 엔진 구체적인 버전 설치 방법
-	//사용 가능한 버전 확인
-	apt-cache madison docker-ce 
-	apt-cache madison docker-ce-cli
+//도커 엔진 구체적인 버전 설치 방법
+//사용 가능한 버전 확인
+apt-cache madison docker-ce 
+apt-cache madison docker-ce-cli
 
-	sudo apt-get install docker-ce=<version_string> docker-ce-cli=<version_string> containerd.io
+sudo apt-get install docker-ce=<version_string> docker-ce-cli=<version_string> containerd.io
 
-	sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 
-	sudo chmod +x /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
 
-	sudo docker run hello-world
-	```
+sudo docker run hello-world
+```
 </details>
 
 <details>
@@ -217,15 +217,15 @@ docker pull seona8854/openvidu-redis
 
 Openvidu 실행
 
-	```sh
-	sudo su
+```sh
+sudo su
 
-	cd /opt
+cd /opt
 
-	cd openvidu
+cd openvidu
 
-	./openvidu start
-	```
+./openvidu start
+```
 
 추가 수정 사항은 공식문서를 참고 해 주세요!
 https://docs.openvidu.io/en/2.19.0/deployment/ce/on-premises/#1-prerequisites
@@ -235,66 +235,66 @@ https://docs.openvidu.io/en/2.19.0/deployment/ce/on-premises/#1-prerequisites
 <details>
 <summary>NGINX&Certbot</summary>
 
-	```sh
-	  sudo yum info nginx
+```sh
+  sudo yum info nginx
 
-	  /////에러 발생 시 아래 실행////////////////////////////
+  /////에러 발생 시 아래 실행////////////////////////////
 
-	  sudo vi /etc/yum.repos.d/nginx.repo 
-	  [nginx] name=nginx repo 
-	  baseurl=http://nginx.org/packages/centos/7/$basearch/ 
-	  gpgcheck=0 
-	  enabled=1
+  sudo vi /etc/yum.repos.d/nginx.repo 
+  [nginx] name=nginx repo 
+  baseurl=http://nginx.org/packages/centos/7/$basearch/ 
+  gpgcheck=0 
+  enabled=1
 
-	  //////////////////////////////////////////////////////
+  //////////////////////////////////////////////////////
 
-	  sudo yum install nginx
+  sudo yum install nginx
 ```
 
 Certbot
-	```sh
-	  sudo apt-get install snapd
-	  sudo snap install core;
-	  sudo snap install --classic Certbot
+```sh
+  sudo apt-get install snapd
+  sudo snap install core;
+  sudo snap install --classic Certbot
 
-	  sudo ln -s /snap/bin/certbot /usr/bin/certbot
-	  sudo certbot --nginx
-	```
+  sudo ln -s /snap/bin/certbot /usr/bin/certbot
+  sudo certbot --nginx
+```
 
-	nginx.conf
-	```sh
-		server {
-				listen 443 ssl; # managed by Certbot
-				server_name i5a102.p.ssafy.io;
+nginx.conf
+```sh
+  	server {
+			listen 443 ssl; # managed by Certbot
+			server_name i5a102.p.ssafy.io;
 
-				ssl_certificate /etc/letsencrypt/live/i5a102.p.ssafy.io/fullchain.pem; # managed by Certbot
-	      ssl_certificate_key /etc/letsencrypt/live/i5a102.p.ssafy.io/privkey.pem; # managed by Certbot
-	      include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
-	      ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+			ssl_certificate /etc/letsencrypt/live/i5a102.p.ssafy.io/fullchain.pem; # managed by Certbot
+      ssl_certificate_key /etc/letsencrypt/live/i5a102.p.ssafy.io/privkey.pem; # managed by Certbot
+      include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
+      ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
 
-	      location / {
-		    proxy_pass http://172.22.0.1:3000;
-	       }
+      location / {
+            proxy_pass http://172.22.0.1:3000;
+       }
 
-	      location /api {
-		   proxy_pass http://172.22.0.1:8080;
-	       }
+      location /api {
+           proxy_pass http://172.22.0.1:8080;
+       }
 
-	    }
+    }
 
-	    server {
-		    listen 80;
-		    server_name i5a102.p.ssafy.io;
+    server {
+    	    listen 80;
+    	    server_name i5a102.p.ssafy.io;
 
-		    if ($host = i5a102.p.ssafy.io) {
-			 return 301 https://$host$request_uri;
-		    } # managed by Certbot
-		   return 404; # managed by Certbot
-	    }
+    	    if ($host = i5a102.p.ssafy.io) {
+                 return 301 https://$host$request_uri;
+            } # managed by Certbot
+           return 404; # managed by Certbot
+    }
 
-	}
-	```
-	</details>
+}
+```
+</details>
 
 ### 💜프로젝트 설치 방법
 

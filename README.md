@@ -7,6 +7,8 @@
 <!-- TABLE OF CONTENTS -->
 [프로젝트 소개](#프로젝트-소개)
 
+[팀원](#팀원)
+
 [배포 환경](#배포-환경)
 
 [개발 환경](#개발-환경)
@@ -21,7 +23,7 @@
 
 [깃 커밋 컨벤션](#깃-커밋-컨벤션)
 
-[팀원](#팀원)
+
 
 
 
@@ -40,13 +42,59 @@
 
 #### 	기술흐름도 
 	
+<img src="./images/기술흐름도.png" width="700px">
+
+
+## 팀원
+
+<img src="./images/%EC%84%A0%EC%95%84.png" width="100px">
+<p><b>박선아</b></p>
+
+<img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=GitHub&logoColor=white"> [@SeonA1223](https://github.com/SeonA1223)
+<br/>
+<img src="https://img.shields.io/badge/Gmail-EA4335?style=flat&logo=Gmail&logoColor=white"> bsa14523@gmail.com
+
+** 역할 ** 
+- 채팅 fe/be
+- 마이페이지 fe
+- 마이페이지 수정 fe
+- 배포(Docker, nginx)
+- 프로필 이미지 업로드
+- ppt 제작 
+
+<img src="./images/%EB%82%98%EC%98%81.png" width="100px">
+<p><b>김나영</b></p>
+
+<img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=GitHub&logoColor=white"> [@kimmy01](https://github.com/kimmy01)
+<br/>
+<img src="https://img.shields.io/badge/Gmail-EA4335?style=flat&logo=Gmail&logoColor=white"> lovejb0101@gmail.com
+
+** 역할 ** 
+- 로그인/로그아웃 be
+- 마이페이지 be
+- 친구찾기 fe/be
+- 전체적 UI 디자인
+- ppt 제작 
+
+
+<img src="./images/%EC%84%B8%EC%9D%BC.jpg" width="100px">
+<p><b>윤세일</b></p>
+
+<img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=GitHub&logoColor=white"> [@devysi0827](https://github.com/devysi0827)
+<br/>
+<img src="https://img.shields.io/badge/Gmail-EA4335?style=flat&logo=Gmail&logoColor=white"> devysi0827@gmail.com
+
+** 역할 ** 
+- 로그인/로그아웃 fe
+- 채팅 fe
+- 전체적 UI 수정
+- 발표 
 
 
 #### 로그인
 <img src="./images/DB 모델링.png" width="700px">
 
 #### 회원가입
-<img src="./images/기술흐름도.png" width="700px">
 
 #### 마이페이지
 	- 최초 로그인시 마이페이로 바로 이동
@@ -64,7 +112,9 @@
 <img src="./images/searchfriends.PNG" width="700px">
 
 #### 채팅
-<img src="./images/chatting.PNG" width="400px">
+	- 친구찾기에서 특정 유저를 클릭 시, 채팅 연결 성공
+	- 기존에 친구였던 친구는, 해당 채팅방으로 이동
+<img src="./images/chatting.PNG" width="700px">
 
 
 
@@ -364,29 +414,4 @@ nginx.conf
       feat : Implementation about Login
       fix : 회원가입 - 페이지 버튼 수정
   ```
-
-## 팀원
-
-<img src="./images/%EC%84%A0%EC%95%84.png" width="100px">
-<p><b>박선아</b></p>
-
-<img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=GitHub&logoColor=white"> [@SeonA1223](https://github.com/SeonA1223)
-<br/>
-<img src="https://img.shields.io/badge/Gmail-EA4335?style=flat&logo=Gmail&logoColor=white"> bsa14523@gmail.com
-
-<img src="./images/%EB%82%98%EC%98%81.png" width="100px">
-<p><b>김나영</b></p>
-
-<img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=GitHub&logoColor=white"> [@kimmy01](https://github.com/kimmy01)
-<br/>
-<img src="https://img.shields.io/badge/Gmail-EA4335?style=flat&logo=Gmail&logoColor=white"> lovejb0101@gmail.com
-
-
-<img src="./images/%EC%84%B8%EC%9D%BC.jpg" width="100px">
-<p><b>윤세일</b></p>
-
-<img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=GitHub&logoColor=white"> [@devysi0827](https://github.com/devysi0827)
-<br/>
-<img src="https://img.shields.io/badge/Gmail-EA4335?style=flat&logo=Gmail&logoColor=white"> devysi0827@gmail.com
-
 

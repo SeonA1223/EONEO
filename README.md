@@ -38,7 +38,7 @@
 
 #### 	DB 모델링
 
-<img src="./images/login.PNG" width="700px">
+<img src="./images/DB 모델링.png" width="700px">
 
 #### 	기술흐름도 
 	
@@ -92,9 +92,10 @@
 
 
 #### 로그인
-<img src="./images/DB 모델링.png" width="700px">
+<img src="./images/login.PNG" width="700px">
 
 #### 회원가입
+<img src="./images/signup.PNG" width="700px">
 
 #### 마이페이지
 	- 최초 로그인시 마이페이로 바로 이동

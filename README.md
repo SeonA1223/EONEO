@@ -396,9 +396,6 @@ nginx.conf
       docker run -d -p 3000:3000 --network eoneo --name eoneofront eoneofront:v0.1 
     ```
 
-### 💜기술 흐름도
-<img src="./images/%EA%B8%B0%EC%88%A0%ED%9D%90%EB%A6%84%EB%8F%84.png" width="700px">
-
 
 ### 💜깃 커밋 컨벤션
 

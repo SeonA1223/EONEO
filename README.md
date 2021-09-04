@@ -2,33 +2,26 @@
 <img src="./images/mainlogo.png" width="200px">
 <br />
 
-  # EONEO
+# EONEO
 
 <!-- TABLE OF CONTENTS -->
-<details open="open">
-  <summary><b>📃목차</b></summary>
-  <ol>
-    <li>
-      [프로젝트 소개](#프로젝트-소개)
-      <ul>
-        <li>[배포 환경](#배포-환경)</li>
-        <li>[개발 환경](#개발-환경)</li>
-        <li>[핵심 라이브러리](#핵심-라이브러리)</li>
-      </ul>
-    </li>
-    <li>
-      [프로젝트 시작하기](#프로젝트-시작하기)
-      <ul>
-        <li>[사전 준비](#사전-준비)</li>
-        <li>[프로젝트 설치 방법](#프로젝트-설치-방법)</li>
-        <li>[깃 커밋 컨벤션](#깃-커밋-컨벤션)</li>
-      </ul>
-    </li>
-    <li>
-      [팀원](#팀원)
-    </li>
-  </ol>
-</details>
+[프로젝트 소개](#프로젝트-소개)
+
+[배포 환경](#배포-환경)
+
+[개발 환경](#개발-환경)
+
+[핵심 라이브러리](#핵심-라이브러리)
+
+[프로젝트 시작하기](#프로젝트-시작하기)
+
+[사전 준비](#사전-준비)
+
+[프로젝트 설치 방법](#프로젝트-설치-방법)
+
+[깃 커밋 컨벤션](#깃-커밋-컨벤션)
+
+[팀원](#팀원)
 
 
 
@@ -41,37 +34,38 @@
 자신이 배우고 싶은 언어, 할 수 있는 언어, 모국어를 선택 후,  
 관심사가 같은 다양한 사람들과 글로벌하게 토킹 해 보세요!☺
 
-## EONEO의 특징
-**접근성** **직관성** **경량화**
-
-
 
 #### 로그인
-<img src="./images/login.PNG" width="400px">
+	<img src="./images/login.PNG" width="700px">
 
 #### 회원가입
-<img src="./images/signup.PNG" width="400px">
+	<img src="./images/signup.PNG" width="700px">
 
 #### 마이페이지
-<img src="./images/mypage.PNG" width="400px">
+	- 최초 로그인시 마이페이로 바로 이동
+	- 관심사토픽 및 사용자가 가능언어/모국어/배우고 싶은 언어 선택
+	- 프로필 이미지 설정 가능
+	<img src="./images/mypage.PNG" width="700px">
 
 #### 사용자 정보 수정
-<img src="./images/editprofile1.PNG" width="400px">
-<img src="./images/editprofile2.PNG" width="400px">
+	<img src="./images/editprofile1.PNG" width="700px">
+	<img src="./images/editprofile2.PNG" width="700px">
 
 #### 친구 찾기
-<img src="./images/searchfriends.PNG" width="400px">
+	- 원하는 주세 선택 시, 해당 주제를 관심사로 등록한 사용자 목록을 띄워줌
+	- 단, 내가 배우고 싶은 언어를 사용하거나 모국어인 사람들 내에서만
+	<img src="./images/searchfriends.PNG" width="700px">
 
 #### 채팅
-<img src="./images/chatting.PNG" width="400px">
+	<img src="./images/chatting.PNG" width="400px">
 
 
 
 ### 💜배포 환경
-- __URL__ : https://i5a102.p.ssafy.io/
-- __배포 여부__ : O 
-- __접속 가능__ : 접속 가능 
-- __HTTPS 적용__ : O 
+	- __URL__ : https://i5a102.p.ssafy.io/
+	- __배포 여부__ : O 
+	- __접속 가능__ : 접속 가능 
+	- __HTTPS 적용__ : O 
 
 
 ### 💜개발 환경
@@ -87,23 +81,28 @@
 </div>
 
 #### BackEnd
+<div>
 <img src="https://img.shields.io/badge/-MySQL-4479A1?style=flat&logo=mysql&logoColor=ffffff">
 <img src="https://img.shields.io/badge/-JWT-000000?style=flat&logo=JSON Web Tokens&logoColor=ffffff">
 <img src="https://img.shields.io/badge/SpringBoot-6DB33F?style=flat&logo=springboot&logoColor=white">
 <img src="https://img.shields.io/badge/IntelliJIDEA-000000.svg?style=flat&logo=intellij-idea&logoColor=white">
 <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=Postman&logoColor=white">
 <img src="https://img.shields.io/badge/WebRTC-333333?style=flat&logo=WebRTC&logoColor=white">
+</div>
 
 #### Collaboration
+<div>
 <img src="http://img.shields.io/badge/-GitLab-FCA121?style=flat&logo=git&logoColor=FFFFFF">
 <img src="https://img.shields.io/badge/Jira-0052CC?style=flat&logo=Jira&logoColor=white">
 <img src="https://img.shields.io/badge/Notion-000000?style=flat&logo=Notion&logoColor=white">
+</div>
 
 #### Distribution
+<div>
 <img src="https://img.shields.io/badge/AWS-232F3E?style=flat&logo=AmazonAWS&logoColor=white">
 <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=Docker&logoColor=white">
 <img src="https://img.shields.io/badge/NGINX-009639?style=flat&logo=NGINX&logoColor=white">
-
+</div>
 #### Design
 <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=Figma&logoColor=white">
 
@@ -202,18 +201,6 @@ sudo docker run hello-world
 
 <details>
 <summary>Openvidu</summary>
-
-저희 프로젝트와 동일한 버전의 Openvidu를 사용하기 위해 dockerhub에 image들을 올려놨습니다.
-
-```sh
-docker pull seona8854/kurento-media-server
-docker pull seona8854/openvidu-call
-docker pull seona8854/openvidu-server-kms
-docker pull seona8854/openvidu-server
-docker pull seona8854/openvidu-coturn
-docker pull seona8854/openvidu-proxy
-docker pull seona8854/openvidu-redis
-```
 
 Openvidu 실행
 

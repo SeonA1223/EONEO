@@ -34,30 +34,37 @@
 자신이 배우고 싶은 언어, 할 수 있는 언어, 모국어를 선택 후,  
 관심사가 같은 다양한 사람들과 글로벌하게 토킹 해 보세요!☺
 
+#### 	DB 모델링
+
+<img src="./images/login.PNG" width="700px">
+
+#### 	기술흐름도 
+	
+
 
 #### 로그인
-	<img src="./images/login.PNG" width="700px">
+<img src="./images/DB 모델링.png" width="700px">
 
 #### 회원가입
-	<img src="./images/signup.PNG" width="700px">
+<img src="./images/기술흐름도.png" width="700px">
 
 #### 마이페이지
 	- 최초 로그인시 마이페이로 바로 이동
 	- 관심사토픽 및 사용자가 가능언어/모국어/배우고 싶은 언어 선택
 	- 프로필 이미지 설정 가능
-	<img src="./images/mypage.PNG" width="700px">
+<img src="./images/mypage.PNG" width="700px">
 
 #### 사용자 정보 수정
-	<img src="./images/editprofile1.PNG" width="700px">
-	<img src="./images/editprofile2.PNG" width="700px">
+<img src="./images/editprofile1.PNG" width="700px">
+<img src="./images/editprofile2.PNG" width="700px">
 
 #### 친구 찾기
 	- 원하는 주세 선택 시, 해당 주제를 관심사로 등록한 사용자 목록을 띄워줌
 	- 단, 내가 배우고 싶은 언어를 사용하거나 모국어인 사람들 내에서만
-	<img src="./images/searchfriends.PNG" width="700px">
+<img src="./images/searchfriends.PNG" width="700px">
 
 #### 채팅
-	<img src="./images/chatting.PNG" width="400px">
+<img src="./images/chatting.PNG" width="400px">
 
 
 

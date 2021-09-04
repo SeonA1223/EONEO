@@ -9,6 +9,8 @@
 
 [프로젝트 소개](#프로젝트-소개)
 
+[Pages in Detail](#Pages-in-Detail)
+
 [배포 환경](#배포-환경)
 
 [개발 환경](#개발-환경)
@@ -89,7 +91,7 @@
 <img src="./images/기술흐름도.png" width="700px">
 
 
-### Pages in Detail
+## Pages in Detail
 
 #### 로그인
 <img src="./images/login.PNG" width="700px">
@@ -98,21 +100,26 @@
 <img src="./images/signup.PNG" width="700px">
 
 #### 마이페이지
+
 	- 최초 로그인시 마이페이지로 바로 이동
 	- 관심사토픽 및 사용자가 가능언어/모국어/배우고 싶은 언어 선택
 	- 프로필 이미지 설정 가능
 <img src="./images/mypage.PNG" width="700px">
 
 #### 사용자 정보 수정
+
 <img src="./images/editprofile1.PNG" width="700px">
 <img src="./images/editprofile2.PNG" width="700px">
 
 #### 친구 찾기
+
 	- 원하는 주세 선택 시, 해당 주제를 관심사로 등록한 사용자 목록을 띄워줌
 	- 단, 내가 배우고 싶은 언어를 사용하거나 모국어인 사람들 내에서만
+	
 <img src="./images/searchfriends.PNG" width="700px">
 
 #### 채팅
+
 	- 친구찾기에서 특정 유저를 클릭 시, 채팅 연결 성공
 	- 기존에 친구였던 친구는, 해당 채팅방으로 이동
 <img src="./images/chatting.PNG" width="700px">
@@ -120,6 +127,7 @@
 
 
 ### 💜배포 환경
+
 	- __URL__ : https://i5a102.p.ssafy.io/
 	- __배포 여부__ : O 
 	- __접속 가능__ : 다른 인스턴스로 이동 예정으로 현재 불가능
@@ -161,6 +169,7 @@
 <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=Docker&logoColor=white">
 <img src="https://img.shields.io/badge/NGINX-009639?style=flat&logo=NGINX&logoColor=white">
 </div>
+
 #### Design
 <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=Figma&logoColor=white">
 

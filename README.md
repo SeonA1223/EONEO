@@ -84,13 +84,15 @@
 자신이 배우고 싶은 언어, 할 수 있는 언어, 모국어를 선택 후,  
 관심사가 같은 다양한 사람들과 글로벌하게 토킹 해 보세요!☺
 
+#### 	기술흐름도 
+	
+<img src="./images/기술흐름도.png" width="700px">
+
+
 #### 	DB 모델링
 
 <img src="./images/DB 모델링.png" width="700px">
 
-#### 	기술흐름도 
-	
-<img src="./images/기술흐름도.png" width="700px">
 
 <br/>
 

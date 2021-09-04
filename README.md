@@ -89,7 +89,7 @@
 <img src="./images/기술흐름도.png" width="700px">
 
 
-
+### Pages in Detail
 
 #### 로그인
 <img src="./images/login.PNG" width="700px">
@@ -98,7 +98,7 @@
 <img src="./images/signup.PNG" width="700px">
 
 #### 마이페이지
-	- 최초 로그인시 마이페이로 바로 이동
+	- 최초 로그인시 마이페이지로 바로 이동
 	- 관심사토픽 및 사용자가 가능언어/모국어/배우고 싶은 언어 선택
 	- 프로필 이미지 설정 가능
 <img src="./images/mypage.PNG" width="700px">
